@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/student file CSS/studentcodecss/navbar.css">
+    <!-- <style>
+        .search{
+            float: right;
+            color: black;
+            padding: 12px 12px;
+        }
+    </style>  -->
+    <script>
+        // function stratliveupdate () {
+            // const timeViewCount * document.getElementById('viewcount');
+        let a;
+        let date;
+        let time;
+        // setTimeout(function(){
+        setInterval(function() {
+          const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'};
+          a = new Date();
+          date = a.toLocaleDateString(undefined, options);
+          time = a.getHours() +':'+ a.getMinutes() +':'+ a.getSeconds();
+          document.getElementById('time').innerHTML = time +  "<br>Date:"  + date;
+        }, 1000);
+    // startTime()}, 1000);
+    // }
+    </script>
+</head>
+<body>
+    <center><header>
+        #birthFORwrite
+    </header></center>
+    <nav class="nav">
+         <ul>
+            <li><a href="/student file CSS/studentcodecss/aboutme.html">AboutMe</a></li>
+            <li><a href="/student file CSS/studentcodecss/contactMe.html">ContactMe</a></li>
+            <li><a href="/student file CSS/studentcodecss/AboutMyBook.html">AboutMyBook</a></li>
+            <li><a href="/student file CSS/studentcodecss/Services.html">Services</a></li>
+            <div class="Search">
+                <input type="text" name="Search" id="Search" placeholder="Search">
+            </div>
+         </ul>
+    </nav>
+    <!-- <center>
+        <footer>
+            <ul><li><h4>
+                Clicl this link for SignUp and languages:
+            </h4></li></ul>
+        </footer>
+    </center> -->
+    <!-- <nav2 class="nav">
+        <center><li><a href="/studentcodecss/signupform.html">Clicl this link for SignUp and languages:</a></li></center>
+    </nav2> -->
+    <!-- <div>
+        <center>
+            <a href="/studentcodecss/signupform.html">Clicl this link for SignUp and languages:</a>
+        </center>
+    </div> -->
+    <main>
+        <nav class="Secont nav">
+            <ul>
+                <li><a href="/student file CSS/studentcodecss/signupform.html">SignUp and languages:</a></li>
+            </ul>
+        </nav>
+    </main>
+    <!-- <div class="container">
+        <button id="click"><a href="/student file CSS/studentcodecss/addClick.html"></a>#webPhoto</button>
+    </div> -->
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Time: <span id="time"></span></h1>
+            <p class="lead">We provide you the most valuable time management through our languages.</p>
+            <!-- <hr class="my-4"> -->
+            <p>If you  are searching for invisting your time for positive work then welcome to our website.</p>
+            <p class="lead">
+              <a class="btn btn-primary btn-lg" href="/student file CSS/studentcodecss/aboutme.html" role="button">Know Me</a>
+            </p>
+          </div>
+    </div>
+</body>
+</html>

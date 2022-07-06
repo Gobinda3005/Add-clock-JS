@@ -1,0 +1,16 @@
+body{
+    background-image: url(/student\ file\ CSS/C\ image.jpg),url(/student\ file\ CSS/C++\ image.jpg),url(/student\ file\ CSS/python\ image.jpg),url(/student\ file\ CSS/html\ image.jpg),url(/student\ file\ CSS/angularjs\ image.jpg),url(/student\ file\ CSS/java\ image.jpg),url(/student\ file\ CSS/css\ image.jpg),url(/student\ file\ CSS/js\ image.jpg),url(/student\ file\ CSS/php\ image.jpg),url(/student\ file\ CSS/ts\ image.jpg),url(/student\ file\ CSS/birthforwrite\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px,150px;
+    background-position: 60% 65px,80% 240px,60% 430px,80% 600px,60% 840px,80% 1090px,60% 1340px,80% 1600px,60% 1880px,80% 2000px,70% 2220px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+body header{
+    background-color: rgb(38, 38, 133);
+    color: antiquewhite;
+    border-radius: 30px;
+}
